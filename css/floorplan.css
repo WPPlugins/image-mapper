@@ -1,0 +1,70 @@
+@CHARSET "UTF-8";
+
+#upload {
+	float: left;
+}
+
+.floor-plan-trash {
+	background: url("/wp-content/plugins/floorplan-generator/images/trash.png")
+		no-repeat;
+	cursor: pointer;
+	height: 16px;
+	left: 0;
+	position: absolute;
+	top: 42px;
+	width: 16px;
+	z-index: 2147483647;
+}
+
+.floor-plan-edit {
+	background: url("/wp-content/plugins/floorplan-generator/images/edit.png")
+		no-repeat;
+	cursor: pointer;
+	height: 16px;
+	left: 0;
+	position: absolute;
+	top: 64px;
+	width: 16px;
+	z-index: 2147483647;
+}
+
+.floor-plan-new-trash {
+	background: url("/wp-content/plugins/floorplan-generator/images/trash.png")
+		no-repeat;
+	cursor: pointer;
+	height: 16px;
+	left: 250px;
+	position: absolute;
+	top: 15px;
+	width: 16px;
+	z-index: 2147483647;
+}
+
+.floor-plan-new-edit {
+	background: url("/wp-content/plugins/floorplan-generator/images/edit.png")
+		no-repeat;
+	cursor: pointer;
+	height: 16px;
+	left: 280px;
+	position: absolute;
+	top: 15px;
+	width: 16px;
+	z-index: 2147483647;
+}
+
+#floorplan_div {
+	width: 750px;
+	position: relative;
+	border: solid 1px
+}
+
+#fp-instruction-msg {
+	color: #E64A31;
+        float: left;
+        font-weight: bold;
+        width: 510px;
+}
+
+#floorplan_img {
+	width: 100%;
+}
